@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mobile Dashboard</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="dashboard">
+      <!-- Sidebar Section -->
+      <aside class="sidebar">
+        <div class="profile-section">
+          <div
+            class="profile-pic"
+            style="background: linear-gradient(to right, #ff5d75, #ff8b50)"
+          >
+            <span>C</span>
+          </div>
+          <div class="profile-details">
+            <h4>Chetan Meena</h4>
+            <p>Last Login: 23-11-2024 10:54:46</p>
+          </div>
+        </div>
+
+        <ul class="menu">
+          <li><i class="icon">⭐</i> My Favorites</li>
+          <li>
+            <i class="icon">🔔</i> Notifications
+            <span class="notification-count">103</span>
+          </li>
+          <li>Live Chat</li>
+          <li>Cross Talk</li>
+          <li>Consent Dashboard</li>
+          <li>Privacy Notice</li>
+          <li>Clear Cache</li>
+          <li>Version Upgrade</li>
+          <li>Change Theme</li>
+          <li>Change Template</li>
+          <li>Change Language</li>
+          <li>Change Password</li>
+          <li>Logout</li>
+        </ul>
+
+        <div class="toggle-section">
+          <span>Allow Notifications</span>
+          <label class="switch">
+            <input type="checkbox" checked />
+            <span class="slider"></span>
+          </label>
+        </div>
+      </aside>
+
+      <!-- Overlay (Backdrop) -->
+      <div class="backdrop"></div>
+
+      <!-- Main Dashboard Section -->
+      <header class="header">
+        <div class="left-section">
+          <div class="menu-icon" id="menu-icon">&#9776;</div>
+          <div class="welcome-section">
+            <img
+              src="photos/profile-account.png"
+              alt="Profile"
+              class="profile-pic"
+            />
+            <p>Welcome<br /><span class="username">Chetan Meena</span></p>
+          </div>
+        </div>
+        <div class="grid-icon">
+          <span style="background-color: rgba(255, 255, 255, 0.507)">
+            <img src="photos/menu.png" />
+          </span>
+          <span>
+            <img src="photos/menu (1).png" />
+          </span>
+        </div>
+      </header>
+
+      <!-- Notification Section -->
+      <div class="notification">
+        <div class="notification-icon">
+          <span class="bell-icon">&#128276;</span>
+        </div>
+        <div class="notification-bar">
+          <p>FYI → <span class="notification-count">103</span></p>
+        </div>
+      </div>
+
+      <!-- Main Grid Section -->
+      <div class="grid-container">
+        <div class="grid-item" style="background-color: #fce9e9">
+          <img src="photos/elearning.png" alt="Digital Campus" />
+          <p>Digital Campus</p>
+        </div>
+        <div class="grid-item" style="background-color: #fde8f2">
+          <img src="photos/helpdesk.png" alt="HelpDesk" />
+          <p>HelpDesk</p>
+        </div>
+        <div class="grid-item" style="background-color: #e9f8e9">
+          <img src="photos/file (2).png" alt="Self Service" />
+          <p>Self Service</p>
+        </div>
+        <div class="grid-item" style="background-color: #e8f0fd">
+          <img src="photos/elearning (1).png" alt="TCS iON Digital Learning" />
+          <p>TCS iON Digital Learning</p>
+        </div>
+        <div class="grid-item" style="background-color: #f4e9ff">
+          <img src="photos/book.png" alt="Category" />
+          <p>Category</p>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,151 @@
+/* digital-campus.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background: #0078d7;
+    color: white;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Style */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Profile Section */
+  .profile-section {
+    background-color: #0059b3;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Profile Header */
+  .profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .profile-pic {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 2px solid #fff;
+  }
+  
+  .profile-details h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .profile-details p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .profile-details span {
+    color: #e6e6e6;
+  }
+  
+  /* Additional Information */
+  .additional-info{
+    display: flex;
+    padding: 5px;
+  }
+  .additional-info p {
+    font-size: 14px;
+    margin-bottom: 8px;
+    line-height: 1.6;
+  }
+  
+  .additional-info strong {
+    font-weight: bold;
+  }
+  
+
+.details p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.payment-summary {
+    padding: 15px 20px;
+    background: #dfe9f5;
+    text-align: center;
+}
+
+.payment-summary p {
+    margin: 5px 0;
+}
+
+.fee-details {
+    padding: 15px 20px;
+}
+
+.fee-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background: #e7f3ff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.fee-type p {
+    margin: 0;
+}
+
+.fee-breakdown .fee-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.fee-item p {
+    margin: 0;
+}
+
+input[type="checkbox"] {
+    margin-left: 10px;
+}
